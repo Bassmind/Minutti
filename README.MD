@@ -1,4 +1,4 @@
-#Minutti
+#Minutti.
 Este es un proyecto sencillo en React para una aplicación que permita generar presupuestos basados en opciones elegidas por el usuario.
 Tendrá los siguientes modulos:
 - Módulo para añadir/eliminar productos junto con su precio.
