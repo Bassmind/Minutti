@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import {allData, addPropertyAndUpdate, deleteProperty } from '../js/firebase'
+import Nav from './Nav';
 
 function AnadirAtributos() {
   const [atributos, setAtributos] = useState([]);
@@ -37,6 +38,7 @@ function AnadirAtributos() {
 
   return (
     <div className="app-shell">
+      <Nav />
       <div className='card'>
         <h2>En esta página puedes añadir nuevos atributos para los productos.</h2>
         <h4>Atributos existentes y su precio:</h4>
